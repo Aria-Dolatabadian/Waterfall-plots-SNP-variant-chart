@@ -25,3 +25,4 @@ mutationColours <- c("nonsense"='#4f00A8', "frame_shift_del"='#A80100', "frame_s
 waterfall(mutationData, fileType = "Custom", variant_class_order=mutation_priority, mainPalette=mutationColours)
 
 
+#https://genviz.org/module-03-genvisr/0003/02/01/waterfall_GenVisR/
