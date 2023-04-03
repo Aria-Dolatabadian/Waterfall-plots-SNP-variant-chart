@@ -6,8 +6,6 @@ BiocManager::install("GenVisR")
 library(GenVisR)
 
 mutationData <- read.delim("BKM120_Mutation_Data.tsv")
-clinicalData <- read.delim("BKM120_Clinical.tsv")
-mutationBurden <- read.delim("BKM120_MutationBurden.tsv")
 
 
 # Reformat the mutation data for waterfall()
